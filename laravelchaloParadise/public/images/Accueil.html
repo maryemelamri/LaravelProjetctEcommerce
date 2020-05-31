@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://localhost:8080/Chalo-Paradis/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Accueil</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script type="text/javascript" src="./Accueil_files/font-awesome.min.css"></script>
+
+  <link rel="stylesheet" type="text/css " href="./Accueil_files/file.css">
+  <script src="./Accueil_files/jquery-331.min.js.téléchargement"></script>
+  <script src="./Accueil_files/bootstrap-337.min.js.téléchargement"></script>
+  <script src="./Accueil_files/uikit-icons.min.js.téléchargement"></script>
+  <script src="./Accueil_files/uikit.min.js.téléchargement"></script>
+  <script src="./Accueil_files/uikit-icons.min.js(1).téléchargement"></script>
+  <script src="./Accueil_files/main.js.téléchargement"></script>
+  <script src="./Accueil_files/util.js.téléchargement"></script>
+
+  <link rel="stylesheet" href="./Accueil_files/bootstrap-337.min.css">
+  <link rel="stylesheet" href="./Accueil_files/font-awesome.min(1).css">
+  <link rel="stylesheet" href="./Accueil_files/font-awesome.min(2).css">
+  <link rel="stylesheet" type="text/css" href="./Accueil_files/uikit.min.css">
+  
+
+
+</head>
+
+<body cz-shortcut-listen="true">
+<a id="botona"></a>
+
+ 
+<!-- top menu -->
+  <div id="top">
+    <div class="container">
+
+
+      <div class="col-md-6 offer">
+        <a href="http://localhost:8080/Chalo-Paradis/#" class="btn btn-warning btn-sm"> Bienvenue chez Chalo Paradise  </a>
+        <!-- <a href="panier.html" class="btn navbar-btn btn-warning  right">
+
+          <i class="fa fa-shopping-cart"></i>
+        </a> -->
+      </div>
+
+      <div class="col-md-6 ">
+        <ul class="menu">
+
+          <li> <a href="http://localhost:8080/Chalo-Paradis/inscription.php">S'inscrire</a></li>
+          <li> <a href="http://localhost:8080/Chalo-Paradis/">mon Compte</a></li>
+          <li> <a href="http://localhost:8080/Chalo-Paradis/connection.php">Connection</a></li>
+
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- menu -->
+  <div id="navbar" style="margin-bottom: 0px;" class="navbar navbar-default">
+    <div class="container">
+
+      <div class="navbr-header">
+        <!--  -->
+
+        <a href="http://localhost:8080/Chalo-Paradis/index.php" style="height: 90px;padding: 0px 15px;" class="navbar-brand home">
+
+          <img src="./Accueil_files/Logo.png" style="max-width:220px;max-height:90px" alt="Logo">
+
+        </a>
+        <!--  menu search mode mobile -->
+        <button class="navbar-toggle" style="margin-top: 20px" data-toggle="collapse" data-target="#navigation">
+
+
+          <i class="fa fa-align-justify"></i>
+
+        </button>
+
+        <button class="navbar-toggle" style="margin-top: 20px" data-toggle="collapse" data-target="#search">
+
+
+          <i class="fa fa-search"></i>
+
+        </button>
+
+      </div>
+      <style type="text/css">
+
+
+ @media (max-width: 991px){
+
+          .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {margin-left: 285px;}
+          .navbar>.container  .navbar-collapse >.padding-nav>.navbar-nav {margin-left: 85px} 
+
+           }
+
+@media (max-width: 767px){.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 2px;
+}}
+
+
+
+
+      </style>
+      <div class="navbar-collapse collapse" id="navigation">
+        <div class="padding-nav">
+          <ul class="nav navbar-nav left" style="margin-top: 20px; margin-left: 30px">
+
+            <li>
+              <a href="http://localhost:8080/Chalo-Paradis/index.php">Accueil</a>
+            </li>
+            <li>
+              <a href="http://localhost:8080/Chalo-Paradis/Produit.php">Nos produits</a>
+            </li>
+            <li>
+              <a href="http://localhost:8080/Chalo-Paradis/service.php">Nos Services</a>
+            </li>
+            <li>
+              <a href="http://localhost:8080/Chalo-Paradis/gallery.php">Gallerie</a>
+            </li>
+            <li>
+              <a href="http://localhost:8080/Chalo-Paradis/apropos.php">A propos</a>
+            </li>
+
+            <li>
+              <a href="http://localhost:8080/Chalo-Paradis/contact.php">Contactez nous</a>
+            </li>
+           
+
+          </ul>
+
+        </div>
+        <!-- search -->
+
+        <div class="navbar-collapse collapse right">
+
+          <button style="margin-top: 25px" class="btn btn-warning navbar-btn" type="button" data-toggle="collapse" data-target="#search">
+
+            <i class="fa fa-search"></i>
+
+          </button>
+
+        </div> 
+        <!-- search form -->
+        <div class="collapse clearfix" id="search">
+
+          <form method="get" action="http://localhost:8080/Chalo-Paradis/results.php" class="navbar-form">
+
+            <div class="input-group">
+
+              <input type="text" class="form-control" placeholder="Search" name="user_query" required="">
+
+              <span class="input-group-btn">
+
+                <button type="submit" name="search" value="Search" class="btn btn-warning">
+
+                  <i class="fa fa-search"></i>
+
+                </button>
+
+              </span>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>   
+  </div>
+
+  
+
+
+  <!-- sidebar+slider -->
+  <div class="container-fluid" style="margin-top: 10px">
+    <!-- side bar -->
+         <div class="col-md-3 mb-4" id="sideBar">
+
+      <div class="row">
+
+
+        <div class="side-bar">
+
+          <div class="entete bg-info " style="padding:10px;background-color: #EC971F ; color: white; ">
+
+            <a class=""> 
+              <i class="fa fa-bars fa-lg " style="color: white;"></i>  <span style="color: white;text-decoration: none;">Categories</span> 
+              <i style=" float: right;color: white" class="fa fa-chevron-down"></i>
+            </a>
+          </div>
+
+
+          <div class="contenu" id="collapseExample">
+            <div class="block-search input-group" style="margin-top: 15px;">
+              <input type="text" class="form-control" placeholder="filtrer...">
+              <a class="input-group-addon">
+                <i class="fa fa-search"></i>
+              </a>
+            </div>
+            <ul style=" text-decoration: none;" class="list-group">
+              <li class="list-group-item "><a style=" color: #ec971f;   text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Beauté du Visage</a></li>
+              <li class="list-group-item"><a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Beaute de cheveaux</a></li>
+              <li class="list-group-item"><a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Huiles alimentaire</a></li>
+              <li class="list-group-item"><a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Beaute de cheveaux</a></li>
+              <li class="list-group-item"><a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Les accessoires</a></li>
+              <li class="list-group-item"><a style="  color: #ec971f; text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Make up</a></li>
+              <li class="list-group-item"><a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">les produits naturels</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>     
+    </div>
+
+
+    
+
+
+    <div class="col-md-1"><br></div>
+    <!-- slider -->
+    <div class="col-md-8">
+      <div class="uk-position-relative uk-visible-toggle uk-light uk-slideshow" tabindex="-1" uk-slideshow="animation: push">
+
+        <ul class="uk-slideshow-items" style="min-height: 477.563px;">
+          <li tabindex="-1" class="uk-active uk-transition-active" style="transform: translate3d(0px, 0px, 0px); z-index: 0;">
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+              <img src="./Accueil_files/slideE.jpg" alt="" uk-cover="" class="uk-cover" style="height: 566px; width: 850px;">
+            </div>
+          </li>
+          <li tabindex="-1">
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+              <img src="./Accueil_files/slideC.jpg" alt="" uk-cover="" class="uk-cover">
+            </div>
+          </li>
+          <li tabindex="-1">
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+              <img src="./Accueil_files/slideD.jpg" alt="" uk-cover="" class="uk-cover">
+            </div>
+          </li>
+          <li tabindex="-1">
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+              <img src="./Accueil_files/slideB.jpg" alt="" uk-cover="" class="uk-cover">
+            </div>
+          </li>
+           <li tabindex="-1">
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+              <img src="./Accueil_files/slidA.jpg" alt="" uk-cover="" class="uk-cover">
+            </div>
+          </li>
+          <li tabindex="-1">
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+              <img src="./Accueil_files/slideF.jpg" alt="" uk-cover="" class="uk-cover">
+            </div>
+          </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav" href="http://localhost:8080/Chalo-Paradis/#" uk-slidenav-previous="" uk-slideshow-item="previous"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav" href="http://localhost:8080/Chalo-Paradis/#" uk-slidenav-next="" uk-slideshow-item="next"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+
+      </div>
+    </div>
+  </div>  
+
+
+   <!-- Categories -->
+  <h3 class="uk-heading-line uk-text-center"><span> Categories </span></h3>
+  <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid" uk-grid="" style="margin-left:30px;margin-bottom: 10px">
+    
+    <div class="uk-first-column">
+      <center>  
+       <div class="carduk uk-inline ">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/visageA.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Beauté du Visage</p>
+            </div>
+        </div>
+      </center>
+    </div>  
+
+    <div class="">
+      <center>  
+       <div class="carduk uk-inline">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/corps.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Beauté du corps</p>
+            </div>
+        </div>  
+      </center> 
+    </div>  
+    <div class="">
+      <center>  
+       <div class="carduk uk-inline">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/huileA.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Huiles alimentaire</p>
+            </div>  
+        </div>
+        </center>
+    </div>  
+    <div class="">
+      <center>  
+       <div class="carduk uk-inline">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/cheveaux (1).jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>beaute de cheveaux</p>
+            </div>  
+        </div>
+      </center>
+    </div>  
+
+    <div class="uk-grid-margin uk-first-column">
+      <center>  
+       <div class="carduk uk-inline">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/food.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Super food</p>
+            </div>
+        </div> 
+      </center> 
+    </div>  
+
+
+     <div class="uk-grid-margin">
+      <center>  
+       <div class="carduk uk-inline">
+            <a class="href"><img src="./Accueil_files/bijou.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Les accessoires</p>
+            </div>
+        </div> 
+      </center> 
+    </div>  
+
+    <div class="uk-grid-margin">
+      <center>  
+       <div class="carduk uk-inline">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/makeup.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Make up</p>
+            </div>
+        </div> 
+      </center> 
+    </div>  
+    <div style="margin-bottom: 0px;margin-right: -20px" class="uk-grid-margin"><center>  
+       <div class="carduk uk-inline">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/visageA.jpg" alt=""></a>
+            <div style="font-size: medium;padding: 7px 30px;background: rgba(236, 151, 31, 0.76);color:rgba(255,255,255);" class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Beauté du Visage</p>
+            </div>
+        </div>
+    </center></div>   
+  </div>
+
+<!-- Les services du site -->
+  <h3 class="uk-heading-line uk-text-center"><span> Nos Services </span></h3>
+  <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid" uk-grid="" style="margin-right: 30px; margin-bottom: 10px">
+      
+    <div class="card-flip uk-first-column">
+      <center>  
+        <div class=" uk-inline card-flip ">
+          <div class="card-front">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/soin.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+            <div style="" class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+              <p>Massage</p>
+            </div>
+          </div> 
+          <div class="card-back" style=" color : white; width: 100%">
+           <p style="margin-top: 80px">Découvrez les meilleure adresse de massage sélectionnées à Marrakech. Le temps s’arrête, bye bye maux de dos, stress et noeuds musculaires, place à la relaxation !</p>
+          </div>
+        </div>  
+      </center>
+    </div>
+
+    <div class="card-flip">
+      <center>  
+        <div class=" uk-inline card-flip ">
+          <div class="card-front">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/spa.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+            <div style="" class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+              <p>SPA</p>
+            </div>
+          </div>     
+          <div class="card-back" style="width: 100%">
+            <p style="margin-top: 80px">Votre escapade spa est une invitation à suspendre le cours du temps et à vous ressourcer pour un moment de relaxation intense. </p>
+          </div>
+        </div>  
+      </center>
+    </div>
+
+    <div class="card-flip">
+      <center>  
+         <div class=" uk-inline card-flip ">
+          <div class="card-front">
+            <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/soin (2).jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+            <div style="" class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+              <p>Soins</p>
+            </div>
+          </div>
+          <div class="card-back" style="width: 100% ">
+            <p style="margin-top: 80px;">Accordez-vous toujours un moment pour prendre soin de vous. Chalo paradise  et un spas vous offrent de de produits pour vous faire vivre des expériences bien-être inédites ! Hammam, soins du visage, massages…</p>
+          </div>
+        </div>
+      </center>
+    </div>
+
+  
+    <div class="card-flip">
+    <center>  
+      <div class=" uk-inline card-flip ">
+        <div class="card-front">
+          <a href="http://localhost:8080/Chalo-Paradis/#"><img src="./Accueil_files/esthetique.jpg" alt="" style="border-radius: 30px;width: 100%"></a>
+          <div style="" class="uk-overlay uk-overlay-primary uk-position-bottom In_Service_Text">
+            <p>Coifure et Esthetique</p>
+          </div>
+        </div>
+        
+        <div class="card-back" style="width: 100%">
+          <p style="margin-top: 80px">Accordez-vous un moment pour vous refaire une beauté à Chalo Paradise. Une escapade dans notre Salon vous permettra de mettre en valeur votre image et votre personnalité.</p>
+        </div>
+      </div>
+    </center>
+    </div>    
+  </div>      
+    
+  <!-- Nouveautés  -->
+  <h3 style="margin-top: 30px;" class="uk-heading-line uk-text-center"><span> Nouveautés</span></h3>
+  <div class="container-fluid" style="margin-bottom:25px;border:solid 1px #ec971f; border-top: 0px;">   
+    <div class="uk-position-relative uk-visible-toggle uk-light uk-slider uk-slider-container" tabindex="-1" uk-slider="">
+      <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid" style="transform: translate3d(0px, 0px, 0px);">
+        <li class="center-responsive article uk-active" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row">
+              <a href="http://localhost:8080/Chalo-Paradis/#"><img class="imgpro" src="./Accueil_files/huileargan.jpg"></a>
+              <h3 class="uk-width-expand" style="color: black">Huile de graine barbarie </h3>
+              <p class="uk-width-expand">  190.00DH </p>
+              <p class="uk-width-expand">  L’huile de graines  100% naturel et certifié BIO et sans aditifs. </p>
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <a href="http://localhost:8080/Chalo-Paradis/#"><button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier
+                  </button></a>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <a href="http://localhost:8080/Chalo-Paradis/#"><button class="uk-button  uk-button-warning"><i style="margin-right: 10px" class="fa fa-eye "></i>voir details</button></a>
+                </div>
+              </div>
+            </div>
+          </center>
+        </li>
+        <li class="center-responsive article uk-active" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row  ">
+              <img class="imgpro" src="./Accueil_files/ghasol.jpg">
+              <h3 style="color: black" class="uk-width-expand"> Ghassool facemask 250g</h3>
+              <p class="uk-width-expand">  50.00DH </p>
+              <p class="uk-width-expand"> Grâce à sa riche appliqué en masque pour le visage,le corps.</p>
+              
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <button class="uk-button  uk-button-warning js-cd-add-to-cart"> <i style="margin-right: 10px" class="fa fa-shopping-cart cd-add-to-cart  "></i> Ajouter au panier  
+                  </button>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <button class="uk-button  uk-button-warning">
+                  <i style="margin-right: 10px" class="fa fa-eye "></i>voir details</button>
+                </div>
+            </div>
+          </div></center>
+        </li>
+        <li class="center-responsive article uk-active" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row  ">
+              <a href="http://localhost:8080/Chalo-Paradis/#"><img class="imgpro" src="./Accueil_files/ghasol.jpg"></a>
+              <h3 style="color: black" class="uk-width-expand">Eau de rose biologiqu</h3>
+              <p class="uk-width-expand">  150.00 Dhs </p>
+              <p class="uk-width-expand"> L'eau est obtenue après distillation de pétales de roses d’un endroit  </p>
+              
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <a href="http://localhost:8080/Chalo-Paradis/#"><button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier  
+                  </button></a>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <a href="http://localhost:8080/Chalo-Paradis/#"><button class="uk-button  uk-button-warning">
+                  <i style="margin-right: 10px" class="fa fa-eye "></i>voir details</button></a>
+                </div>
+            </div>
+          </div></center>
+        </li>
+        <li style="margin-bottom: 10px" class="center-responsive article" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row   ">
+              <a href="http://localhost:8080/Chalo-Paradis/#"><img class="imgpro" src="./Accueil_files/eaurose.jpg"></a>
+              <h3 style="color: black" class="uk-width-expand">  Eau de rose biologique</h3>
+              <p class="uk-width-expand">150.00 Dhs</p>
+              <p class="uk-width-expand">L'eau est obtenue après distillation de pétales de roses d’un endroit </p>
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <a href="http://localhost:8080/Chalo-Paradis/#"><button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier
+                </button></a>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <a href="http://localhost:8080/Chalo-Paradis/#"><button class="uk-button  uk-button-warning">
+                    <i style="margin-right: 10px" class="fa fa-eye "></i>
+                  voir details</button></a>
+                </div>
+              </div>
+            </div>
+          </center>
+        </li>           
+      </ul>
+      <a class="uk-position-center-left uk-position-small uk-icon uk-slidenav-previous uk-slidenav uk-invisible" href="http://localhost:8080/Chalo-Paradis/#" uk-slidenav-previous="" uk-slider-item="previous" style="margin-left: 0px;background-color: #ec971f"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+      <a class="uk-position-center-right uk-position-small uk-icon uk-slidenav-next uk-slidenav" href="http://localhost:8080/Chalo-Paradis/#" uk-slidenav-next="" uk-slider-item="next" style=" margin-right: 0px; background-color: #ec971f"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+    </div>
+  </div>
+
+
+  <!-- Nos promotions -->
+  <h3 style="margin-top: 30px;" class="uk-heading-line uk-text-center"><span> Nos promotions </span></h3>
+  <div class="container-fluid" style="margin-bottom:25px;border:solid 1px #ec971f; border-top: 0px;">   
+    <div class="uk-position-relative uk-visible-toggle uk-light uk-slider uk-slider-container" tabindex="-1" uk-slider="">
+      <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid" style="transform: translate3d(0px, 0px, 0px);">
+        <li class="article uk-active" style="margin-bottom: 10px" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row">
+              <img class="imgpro" src="./Accueil_files/huileargan.jpg">
+              <h3 class="uk-width-expand" style="color: black">Huile de graine barbarie </h3>
+              <p class="uk-width-expand">  190.00DH </p>
+              <p class="uk-width-expand">  L’huile de graines  100% naturel et certifié BIO et sans aditifs. </p>
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier
+                  </button>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <button class="uk-button  uk-button-warning"><i style="margin-right: 10px" class="fa fa-eye "></i>voir details</button>
+                </div>
+              </div>
+            </div>
+          </center>
+        </li>
+        <li class="article uk-active" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row  ">
+              <img class="imgpro" src="./Accueil_files/ghasol.jpg">
+              <h3 style="color: black" class="uk-width-expand"> Ghassool facemask 250g</h3>
+              <p class="uk-width-expand">  50.00DH </p>
+              <p class="uk-width-expand"> Grâce à sa riche appliqué en masque pour le visage,le corps.</p>
+              
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier  
+                  </button>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <button class="uk-button  uk-button-warning">
+                  <i style="margin-right: 10px" class="fa fa-eye "></i>voir details</button>
+                </div>
+            </div>
+          </div></center>
+        </li>
+        <li class="article uk-active" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row   ">
+              <img class="imgpro" src="./Accueil_files/eaurose.jpg">
+              <h3 style="color: black" class="uk-width-expand">  Eau de rose biologique</h3>
+              <p class="uk-width-expand">150.00 Dhs</p>
+              <p class="uk-width-expand">L'eau  obtenue après distillation de pétales de roses d’un endroit </p>
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier
+                </button>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <button class="uk-button  uk-button-warning">
+                    <i style="margin-right: 10px" class="fa fa-eye "></i>
+                  voir details</button>
+                </div> 
+              </div>
+            </div>
+          </center>
+        </li>
+        <li class="article" tabindex="-1">
+          <center>
+            <div style="color: black" class=" carduk row   ">
+              <img class="imgpro" src="./Accueil_files/eaurose.jpg">
+              <h3 style="color: black" class="uk-width-expand">  Eau de rose biologique</h3>
+              <p class="uk-width-expand">150.00 Dhs</p>
+              <p class="uk-width-expand">L'eau est obtenue après distillation de pétales de roses d’un endroit</p>
+              <div>
+                <div class="col-md-12 " style=" margin-bottom: 10px ;">
+                  <button class="uk-button  uk-button-warning"> <i style="margin-right: 10px" class="fa fa-shopping-cart "></i> Ajouter au panier
+                </button>
+                </div>
+                <div class=" col-md-12" style="margin-bottom: 10px ; ">
+                  <button class="uk-button  uk-button-warning">
+                    <i style="margin-right: 10px" class="fa fa-eye "></i>
+                  voir details</button>
+                </div>
+              </div>
+            </div>
+          </center>
+        </li>           
+      </ul>
+      <a class="uk-position-center-left uk-position-small uk-icon uk-slidenav-previous uk-slidenav uk-invisible" href="http://localhost:8080/Chalo-Paradis/#" uk-slidenav-previous="" uk-slider-item="previous" style="margin-left: 0px;background-color: #ec971f"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+      <a class="uk-position-center-right uk-position-small uk-icon uk-slidenav-next uk-slidenav" href="http://localhost:8080/Chalo-Paradis/#" uk-slidenav-next="" uk-slider-item="next" style=" margin-right: 0px; background-color: #ec971f"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+    </div>
+  </div>
+
+
+ <!-- service client -->     
+  <h3 class="uk-heading-line uk-text-center"><span> service client </span></h3>
+  <div class="customer_support">
+    <div class="container">
+    	<div class="row">
+	        <div class="col-xs-12 col-lg-4" style="margin-bottom: 40px;margin-top: 20px">         
+	        	<div class="info">
+		            <table width="100%"> 
+		            	<tbody><tr>  
+		              		<td align="right"><i style="font-size: 80px" class="fa fa-hourglass"></i>  </td>
+		              		<td> 
+				                <div class="txt">
+				                  <span class="txt1">Lun - Ven / 09:00 - 18:00</span> <span class="txt2"> Jours / heures de travail</span>
+				                </div>
+		              		</td>
+		            	</tr>
+		          	</tbody></table>
+	        	</div>
+	        </div>
+	        <div class="col-xs-12 col-lg-4 " style="margin-bottom: 40px;margin-top: 20px">
+	        	<div class="info" style="padding: 5px">
+	           		<table width="100%"> 
+	            		<tbody><tr>  
+	            			<td align="right"><i style="font-size: 120px" class="fa fa-mobile"></i>  </td>
+	            			<td> 
+		                		<div class="txt">
+		                  			<span class="txt1">05 22 97 65 42</span> <span class="txt2"> Allo Boutika</span>
+		                		</div>
+	              			</td>
+	            		</tr>
+	          		</tbody></table>
+	         	</div>
+	        </div>
+	        <div class="col-xs-12 col-lg-4" style="margin-bottom: 40px;margin-top:20px">
+	        	<div class="info">
+	            	<table width="100%"> 
+		             	<tbody><tr>  
+		            		<td align="right"><i style="font-size: 80px" class="fa fa-envelope"></i>  </td>
+		            		<td> 
+			                	<div class="txt">
+			                  		<span class="txt1">contact@boutika.ma</span> <span class="txt2"> Contactez-nous par e-mail</span>
+			                	</div>
+		              		</td>
+		            	</tr>
+	          		</tbody></table>
+	        	</div>
+	      	</div>
+    	</div>
+  	</div>
+  </div>
+
+  <!-- footer  -->
+
+  <div class="uk-card-secondary uk-padding uk-panel" id="contact" style="padding: 0px; ">
+    <!-- suivez-nous -->
+    <div class="uk-section" style="background-color:#ec971f;padding: 7px;">
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-1-3@m uk-child-width-1-1@s uk-grid" uk-grid="">
+
+          <div class="uk-first-column">             
+              <p style="text-transform: uppercase; color: #333;text-align: right;vertical-align: middle;"> </p>              
+          </div>
+          
+          <div style="display: inline;">
+            <center>   
+              <ul class="social-network social-circle">
+                <li><a href="http://localhost:8080/Chalo-Paradis/#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://localhost:8080/Chalo-Paradis/#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://localhost:8080/Chalo-Paradis/#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="http://localhost:8080/Chalo-Paradis/#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="http://localhost:8080/Chalo-Paradis/#" class="icoRss " title="Instagram"><span class="instagram"> <i class="fa fa-instagram"></i> </span></a></li>
+              </ul>
+            </center>
+        
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <!-- partie 2 -->
+    <div class="uk-section">
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-1-3@m uk-grid" uk-grid="">
+          <div class="uk-first-column">
+            <img class="uk-margin-auto uk-margin-auto-vertical" src="./Accueil_files/Logo.png" alt="logo" style="max-width:250px;max-height:250px">
+
+        
+          </div>
+
+          <div class="">
+                <p>
+                 <strong>Chalo Paradis</strong>, Boutique de produits cosmétiques, Institut de Beauté, Onglerie et Coiffure pour femmes, est en cours de construction.<br>
+               
+              </p>
+               <p><b>Mode de paiement</b></p>
+
+                <div style="margin-right: 40px;">
+                     <i class="fa fa-cc-visa fa-2x"></i>
+                      <i class="fa fa-cc-mastercard fa-2x"></i>
+                      <i class="fa fa-cc-paypal fa-2x"></i>
+                </div>
+                
+          </div>
+
+          <div>
+            <div class="box container-fluid" style="background: #333333;">
+              <div class="row" style="padding: 20px;">
+                <p align="center">Inscrivez-vous sur newsletter</p>
+              
+                <div style="margin-right: 40px;">
+                  <div class="col-md-10 col-sm-10 col-xs-10">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2">
+                    <button type="submit" class="btn btn-warning ">Submit</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- partie 3 -->
+    <div class="uk-section">
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-1-3@m uk-grid" uk-grid="">
+          <div class="uk-first-column">
+            <h4 class="uk-heading-line uk-text-center"><span>Accés Rapide</span></h4>
+            <ul class="uk-list FootMenu">
+              <li style=" background-color: #333;" class="list-group-item ">
+                <a style=" color: #ec971f;   text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Beauté du Visage</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Beaute de cheveaux</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Huiles alimentaire</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Beaute de cheveaux</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Les accessoires</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f; text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Make up</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">les produits naturels</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="mapouter uk-margin-large-bottom">
+              <h4 class="uk-heading-line uk-text-center"><span>Position</span></h4>
+              <div class="gmap_canvas uk-margin-auto uk-margin-auto-vertical">
+                <iframe width="100%" height="300px" id="gmap_canvas" src="./Accueil_files/maps.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                
+              </div>
+              <style>
+                .mapouter{position:relative;text-align:right;height:211px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:211px;width:334px;}
+              </style>
+            </div>
+          </div>
+
+          <div>
+            
+            <h4 class="uk-heading-line uk-text-center"><span>Besoin d'aide</span></h4>
+            <ul class="uk-list FootMenu">
+              <li style=" background-color: #333;" class="list-group-item ">
+                <a style=" color: #ec971f;   text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">FAQ</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Nos Condition de vente</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Contactez le webmaster</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Nos Avantages</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f;  text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Découvrez nos promos</a>
+              </li>
+              <li style=" background-color: #333;" class="list-group-item">
+                <a style="  color: #ec971f; text-decoration: none;" href="http://localhost:8080/Chalo-Paradis/">Bon affaire</a>
+              </li>
+             
+            </ul>
+          </div>
+           
+              
+             
+          
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="uk-card uk-padding uk-panel " align="center" style="background-color:#ec971f;padding: 7px;">
+    copyright © 2020: Chalo Paradise
+    </div>
+  </div>
+
+    
+ 
+
+  <script>
+    var btn = $('#botona');
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+    });
+
+
+
+
+  </script>
+
+
+
+
+
+
+</body></html>
